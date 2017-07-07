@@ -14,4 +14,8 @@ $(document).ready(function() {
     $("#button_modeEdge").click(function(event) {
         board.changeMode(MODE_EDGE);
     });
+
+    $("#div_board").click(function(event) {
+        board.onClicked(event);
+    });
 });
