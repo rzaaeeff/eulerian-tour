@@ -4,7 +4,6 @@ export class BaseModel {
         this.board = board;
         this.paper = board.paper;
         this.shapes = [];
-        this.draw();
     }
 
     /**

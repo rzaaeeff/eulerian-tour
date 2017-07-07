@@ -10,6 +10,8 @@ export class Edge extends BaseModel {
 
         this.startVertex = startVertex;
         this.endVertex = endVertex;
+
+        this.draw();
     }
 
     draw() {

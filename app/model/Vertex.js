@@ -11,8 +11,9 @@ export class Vertex extends BaseModel {
         super(board);
 
         this.edges = [];
-        this.position.x = position.x;
-        this.position.y = position.y;
+        this.position = position;
+
+        this.draw();
     }
 
     draw() {
